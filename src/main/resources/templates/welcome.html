@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> thymeleaf demo</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<p>thymeleaf template</p>
+<p th:text="'timwon the server is '+${theDate}" class="green"></p>
+</body>
+</html>
